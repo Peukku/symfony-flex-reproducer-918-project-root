@@ -17,10 +17,10 @@ $ git status
 On branch main
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
- 	deleted:    projectB/config/bootstrap.php
-	deleted:    projectB/config/packages/test/framework.yaml
-	deleted:    projectB/config/routes/dev/framework.yaml
-	modified:   projectB/symfony.lock
+ 	deleted:    config/bootstrap.php
+	deleted:    config/packages/test/framework.yaml
+	deleted:    config/routes/dev/framework.yaml
+	modified:   symfony.lock
 ```
 
 Expected Result:
@@ -29,17 +29,17 @@ $ git status
 On branch main
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-	modified:   projectB/.env
-	deleted:    projectB/config/bootstrap.php
-	modified:   projectB/config/packages/framework.yaml
-	deleted:    projectB/config/packages/test/framework.yaml
-	modified:   projectB/config/preload.php
-	deleted:    projectB/config/routes/dev/framework.yaml
-	new file:   projectB/config/routes/framework.yaml
-	modified:   projectB/config/services.yaml
-	modified:   projectB/public/index.php
-	modified:   projectB/src/Kernel.php
-	modified:   projectB/symfony.lock
+	modified:   .env
+	deleted:    config/bootstrap.php
+	modified:   config/packages/framework.yaml
+	deleted:    config/packages/test/framework.yaml
+	modified:   config/preload.php
+	deleted:    config/routes/dev/framework.yaml
+	new file:   config/routes/framework.yaml
+	modified:   config/services.yaml
+	modified:   public/index.php
+	modified:   src/Kernel.php
+	modified:   symfony.lock
 ```
 
 Steps to reproduce Case B, project in git subproject:
