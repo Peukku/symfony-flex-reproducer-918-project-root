@@ -1,0 +1,3 @@
+[submodule "project-B"]
+	path = project-B
+	url = git@github.com:Peukku/symfony-flex-reproducer-918-project-B.git
